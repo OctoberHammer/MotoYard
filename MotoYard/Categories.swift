@@ -22,7 +22,7 @@ class Categories: PFObject {
 				print("Successfully retrieved \(objects!.count) scores.")
 				// Do something with the found objects
 				if let objects = objects {
-
+//
 				}
 			} else {
 				// Log details of the failure
