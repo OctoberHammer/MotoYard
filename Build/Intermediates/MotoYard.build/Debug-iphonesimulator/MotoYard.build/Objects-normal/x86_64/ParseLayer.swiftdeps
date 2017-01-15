@@ -1,0 +1,413 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CategoriesDelegate"
+- "ParseLayer"
+provides-nominal:
+- "P8MotoYard18CategoriesDelegate"
+- "C8MotoYard10ParseLayer"
+provides-member:
+- ["P8MotoYard18CategoriesDelegate", ""]
+- ["C8MotoYard10ParseLayer", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- !private "print"
+- "Dictionary"
+- !private "StringLiteralType"
+- "ParseLayer"
+- "CategoriesDelegate"
+- !private "Error"
+- !private "PFQuery"
+- !private "??"
+- !private "=="
+- !private "AssignmentPrecedence"
+- "PFObject"
+depends-member:
+- !private ["Ps9AnyObject", "PFQuery"]
+- !private ["Ps9AnyObject", "categoriesDelegate"]
+- !private ["Ps9AnyObject", "findObjectsInBackground"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "objectId"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "Iterator"]
+- ["Ps7CVarArg", "Key"]
+- ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "findObjectsInBackground"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "objectId"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["P8MotoYard18CategoriesDelegate", "PFObject"]
+- ["P8MotoYard18CategoriesDelegate", "String"]
+- ["P8MotoYard18CategoriesDelegate", "categories"]
+- ["P8MotoYard18CategoriesDelegate", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "SubSequence"]
+- ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "findObjectsInBackground"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "objectId"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- ["Ps17CustomReflectable", "Key"]
+- ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "findObjectsInBackground"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "objectId"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "findObjectsInBackground"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "objectId"]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "findObjectsInBackground"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "objectId"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "findObjectsInBackground"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "findObjectsInBackground"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "objectId"]
+- !private ["PSo16NSObjectProtocol", "findObjectsInBackground"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "objectId"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["CSo8PFObject", "deinit"]
+- !private ["CSo8PFObject", "objectId"]
+- ["CSo7PFQuery", "deinit"]
+- !private ["CSo7PFQuery", "findObjectsInBackground"]
+- !private ["CSo7PFQuery", "init"]
+- ["C8MotoYard10ParseLayer", "CategoriesDelegate"]
+- !private ["C8MotoYard10ParseLayer", "Error"]
+- ["C8MotoYard10ParseLayer", "PFObject"]
+- !private ["C8MotoYard10ParseLayer", "PFQuery"]
+- ["C8MotoYard10ParseLayer", "String"]
+- ["C8MotoYard10ParseLayer", "categories"]
+- ["C8MotoYard10ParseLayer", "categoriesDelegate"]
+- ["C8MotoYard10ParseLayer", "deinit"]
+- ["C8MotoYard10ParseLayer", "getAllCategories"]
+- ["C8MotoYard10ParseLayer", "init"]
+- !private ["C8MotoYard10ParseLayer", "print"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "SubSequence"]
+- ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "findObjectsInBackground"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "objectId"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Sb"
+- "Ps7CVarArg"
+- "P8MotoYard18CategoriesDelegate"
+- !private "Vs9Character"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "CSo8PFObject"
+- "CSo7PFQuery"
+- "C8MotoYard10ParseLayer"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "Ps8Sequence"
+- !private "Vs5Slice"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFURL.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFTask.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/Bolts.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Modules/module.modulemap"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFPurchase.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFProduct.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFPush.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFInstallation.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFSession.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFRole.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFRelation.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFQuery.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFFile+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFFile+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFFile.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFConfig.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFCloud.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFObject.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFUser.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFACL.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFConstants.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/Parse.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "49c4ca7e70fd76a09532eeee954a5f48"

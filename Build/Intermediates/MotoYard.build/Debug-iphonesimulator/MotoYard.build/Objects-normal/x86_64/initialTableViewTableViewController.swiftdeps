@@ -1,0 +1,381 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "initialTableViewTableViewController"
+provides-nominal:
+- "C8MotoYard35initialTableViewTableViewController"
+provides-member:
+- ["C8MotoYard35initialTableViewTableViewController", ""]
+provides-dynamic-lookup:
+- "categories"
+- "viewDidLoad"
+- "tableView"
+- "didReceiveMemoryWarning"
+- "numberOfSections"
+depends-top-level:
+- "String"
+- "UITableViewController"
+- "CategoriesDelegate"
+- "AssignmentPrecedence"
+- "Dictionary"
+- "Int"
+- "UITableView"
+- !private "ParseLayer"
+- "initialTableViewTableViewController"
+- "PFObject"
+depends-member:
+- !private ["Ps9AnyObject", "ParseLayer"]
+- ["Ps9AnyObject", "categories"]
+- !private ["Ps9AnyObject", "categoriesDelegate"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "getAllCategories"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "numberOfSections"]
+- ["Ps9AnyObject", "tableView"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "ParseLayer"]
+- ["Ps7CVarArg", "Value"]
+- ["Ps7CVarArg", "categories"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "numberOfSections"]
+- ["Ps7CVarArg", "tableView"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["P8MotoYard18CategoriesDelegate", "ParseLayer"]
+- ["P8MotoYard18CategoriesDelegate", "categories"]
+- ["P8MotoYard18CategoriesDelegate", ""]
+- ["Ps10Collection", "Key"]
+- ["Ps10Collection", "Value"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "ParseLayer"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "categories"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSections"]
+- ["Ps28CustomDebugStringConvertible", "tableView"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps17CustomReflectable", "Key"]
+- ["Ps17CustomReflectable", "Value"]
+- ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "ParseLayer"]
+- ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "categories"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "numberOfSections"]
+- ["Ps23CustomStringConvertible", "tableView"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Ps9Equatable", "ParseLayer"]
+- ["Ps9Equatable", "categories"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "numberOfSections"]
+- ["Ps9Equatable", "tableView"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps8Hashable", "ParseLayer"]
+- ["Ps8Hashable", "categories"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "numberOfSections"]
+- ["Ps8Hashable", "tableView"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["Ps9Indexable", "Key"]
+- ["Ps9Indexable", "Value"]
+- ["Ps13IndexableBase", "Key"]
+- ["Ps13IndexableBase", "Value"]
+- ["Si", "deinit"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "ParseLayer"]
+- ["PSo8NSCoding", "categories"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "numberOfSections"]
+- ["PSo8NSCoding", "tableView"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "ParseLayer"]
+- ["PSo26NSExtensionRequestHandling", "categories"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "numberOfSections"]
+- ["PSo26NSExtensionRequestHandling", "tableView"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "PFObject"]
+- !private ["CSo8NSObject", "ParseLayer"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "categories"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "numberOfSections"]
+- ["CSo8NSObject", "tableView"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "ParseLayer"]
+- ["PSo16NSObjectProtocol", "categories"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "numberOfSections"]
+- ["PSo16NSObjectProtocol", "tableView"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- !private ["C8MotoYard10ParseLayer", "categoriesDelegate"]
+- ["C8MotoYard10ParseLayer", "deinit"]
+- !private ["C8MotoYard10ParseLayer", "getAllCategories"]
+- !private ["C8MotoYard10ParseLayer", "init"]
+- ["Ps8Sequence", "Key"]
+- ["Ps8Sequence", "Value"]
+- !private ["PSo21UIAppearanceContainer", "ParseLayer"]
+- ["PSo21UIAppearanceContainer", "categories"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "numberOfSections"]
+- ["PSo21UIAppearanceContainer", "tableView"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "ParseLayer"]
+- ["PSo18UIContentContainer", "categories"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "numberOfSections"]
+- ["PSo18UIContentContainer", "tableView"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "ParseLayer"]
+- ["PSo18UIFocusEnvironment", "categories"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "numberOfSections"]
+- ["PSo18UIFocusEnvironment", "tableView"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "PFObject"]
+- !private ["CSo11UIResponder", "ParseLayer"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UITableView"]
+- ["CSo11UIResponder", "categories"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "numberOfSections"]
+- ["CSo11UIResponder", "tableView"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "ParseLayer"]
+- ["PSo30UIResponderStandardEditActions", "categories"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "numberOfSections"]
+- ["PSo30UIResponderStandardEditActions", "tableView"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "ParseLayer"]
+- ["PSo20UIScrollViewDelegate", "categories"]
+- ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- ["PSo20UIScrollViewDelegate", "numberOfSections"]
+- ["PSo20UIScrollViewDelegate", "tableView"]
+- ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo16UIStateRestoring", "ParseLayer"]
+- ["PSo16UIStateRestoring", "categories"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "numberOfSections"]
+- ["PSo16UIStateRestoring", "tableView"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["CSo21UITableViewController", "Int"]
+- ["CSo21UITableViewController", "PFObject"]
+- !private ["CSo21UITableViewController", "ParseLayer"]
+- ["CSo21UITableViewController", "String"]
+- ["CSo21UITableViewController", "UITableView"]
+- ["CSo21UITableViewController", "categories"]
+- ["CSo21UITableViewController", "deinit"]
+- ["CSo21UITableViewController", "didReceiveMemoryWarning"]
+- ["CSo21UITableViewController", "init"]
+- ["CSo21UITableViewController", "numberOfSections"]
+- ["CSo21UITableViewController", "tableView"]
+- ["CSo21UITableViewController", "viewDidLoad"]
+- ["CSo21UITableViewController", ""]
+- !private ["PSo21UITableViewDataSource", "ParseLayer"]
+- ["PSo21UITableViewDataSource", "categories"]
+- ["PSo21UITableViewDataSource", "didReceiveMemoryWarning"]
+- !private ["PSo21UITableViewDataSource", "init"]
+- ["PSo21UITableViewDataSource", "numberOfSections"]
+- ["PSo21UITableViewDataSource", "tableView"]
+- ["PSo21UITableViewDataSource", "viewDidLoad"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "ParseLayer"]
+- ["PSo19UITableViewDelegate", "categories"]
+- ["PSo19UITableViewDelegate", "didReceiveMemoryWarning"]
+- !private ["PSo19UITableViewDelegate", "init"]
+- ["PSo19UITableViewDelegate", "numberOfSections"]
+- ["PSo19UITableViewDelegate", "tableView"]
+- ["PSo19UITableViewDelegate", "viewDidLoad"]
+- ["PSo19UITableViewDelegate", ""]
+- ["OSC16UITableViewStyle", "deinit"]
+- !private ["PSo18UITraitEnvironment", "ParseLayer"]
+- ["PSo18UITraitEnvironment", "categories"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "numberOfSections"]
+- ["PSo18UITraitEnvironment", "tableView"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "PFObject"]
+- !private ["CSo16UIViewController", "ParseLayer"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UITableView"]
+- ["CSo16UIViewController", "categories"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "numberOfSections"]
+- ["CSo16UIViewController", "tableView"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- !private ["Ps9_Hashable", "ParseLayer"]
+- ["Ps9_Hashable", "categories"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "numberOfSections"]
+- ["Ps9_Hashable", "tableView"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- ["C8MotoYard35initialTableViewTableViewController", "Int"]
+- ["C8MotoYard35initialTableViewTableViewController", "PFObject"]
+- !private ["C8MotoYard35initialTableViewTableViewController", "ParseLayer"]
+- ["C8MotoYard35initialTableViewTableViewController", "String"]
+- ["C8MotoYard35initialTableViewTableViewController", "UITableView"]
+- ["C8MotoYard35initialTableViewTableViewController", "categories"]
+- ["C8MotoYard35initialTableViewTableViewController", "deinit"]
+- ["C8MotoYard35initialTableViewTableViewController", "didReceiveMemoryWarning"]
+- ["C8MotoYard35initialTableViewTableViewController", "init"]
+- ["C8MotoYard35initialTableViewTableViewController", "numberOfSections"]
+- ["C8MotoYard35initialTableViewTableViewController", "tableView"]
+- ["C8MotoYard35initialTableViewTableViewController", "viewDidLoad"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "P8MotoYard18CategoriesDelegate"
+- "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Si"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "C8MotoYard10ParseLayer"
+- "Ps8Sequence"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- "CSo21UITableViewController"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- "OSC16UITableViewStyle"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- "C8MotoYard35initialTableViewTableViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFURL.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFTask.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Headers/Bolts.h"
+- "/Users/octoberhammer/Developer/MotoYard/Bolts.framework/Modules/module.modulemap"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFPurchase.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFProduct.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFPush.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFInstallation.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFSession.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFRole.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFRelation.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFQuery.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFFile+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFFile+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFFile.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFConfig.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFCloud.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFObject.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFUser.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFACL.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/PFConstants.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Headers/Parse.h"
+- "/Users/octoberhammer/Developer/MotoYard/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "e56bb2ce06877d51e8ef4153f37b83b7"

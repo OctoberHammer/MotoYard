@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "73fb78b63425259fa939cd6eec5d8d82"
+build_time: [537798454, 552764000]
+inputs:
+  "/Users/octoberhammer/Developer/MotoYard/MotoYard/initialTableViewTableViewController.swift": [537722366, 0]
+  "/Users/octoberhammer/Developer/MotoYard/MotoYard/ViewController.swift": [537484110, 0]
+  "/Users/octoberhammer/Developer/MotoYard/MotoYard/ParseLayer.swift": [537722366, 0]
+  "/Users/octoberhammer/Developer/MotoYard/MotoYard/AppDelegate.swift": [537640740, 0]
+  "/Users/octoberhammer/Developer/MotoYard/MotoYard/Categories.swift": [537696134, 0]
