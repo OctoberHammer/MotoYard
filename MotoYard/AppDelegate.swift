@@ -7,18 +7,83 @@
 //
 
 import UIKit
+import Parse
+import Bolts
+import UserNotifications
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
 	var window: UIWindow?
 
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-		// Override point for customization after application launch.
+		let configuration = ParseClientConfiguration {
+			$0.applicationId = "p2TQzhDW8UCtUD23wgoj3chpUQ6YrqFQSY75uxHa"
+			$0.clientKey = "Kdr8SBsp36w1snMsHaO9dGP8C5Rw7zy5HqRKt17P"
+			$0.server = "https://parseapi.back4app.com"
+		}
+		Parse.initialize(with: configuration)
+		
+		PFUser.enableAutomaticUser()
+		
+		let defaultACL = PFACL()
+		
+		// If you would like all objects to be private by default, remove this line.
+		defaultACL.getPublicReadAccess = true
+		
+		PFACL.setDefault(defaultACL, withAccessForCurrentUser: true)
+//		if application.applicationState != UIApplicationState.background {
+//			// Track an app open here if we launch with a push, unless
+//			// "content_available" was used to trigger a background push (introduced in iOS 7).
+//			// In that case, we skip tracking here to avoid double counting the app-open.
+//			
+//			let oldPushHandlerOnly = !responds(to: #selector(UIApplicationDelegate.application(_:didReceiveRemoteNotification:fetchCompletionHandler:)))
+//			var noPushPayload = false
+//			if let options = launchOptions {
+//				noPushPayload = options[UIApplicationLaunchOptionsKey.remoteNotification] == nil
+//			}
+//			if oldPushHandlerOnly || noPushPayload {
+//				PFAnalytics.trackAppOpened(launchOptions: launchOptions)
+//			}
+//		}
+//		
+//
+//		
+////		let types: UNAuthorizationOptions = [.alert, .badge, .sound]
+////		let settings = UNNotificationSetting(rawValue: Int(types.rawValue))
+//		registerForPushNotifications(application: application)
+////		application.registerUserNotificationSettings(settings)
+////		application.registerForRemoteNotifications()
 		return true
 	}
 
+	
+	func registerForPushNotifications(application: UIApplication) {
+		
+		if #available(iOS 10.0, *){
+			UNUserNotificationCenter.current().delegate = self
+			UNUserNotificationCenter.current().requestAuthorization(options: [.badge, .sound, .alert], completionHandler: {(granted, error) in
+				if (granted)
+				{
+					UIApplication.shared.registerForRemoteNotifications()
+				}
+				else{
+					//Do stuff if unsuccessful...
+				}
+			})
+		}
+			
+		else{ //If user is not on iOS 10 use the old methods we've been using
+			let types: UIUserNotificationType = [.alert, .badge, .sound]
+			let settings = UIUserNotificationSettings(types: types, categories: nil)
+			application.registerUserNotificationSettings(settings)
+		}
+		
+	}
+	
+	
+	
 	func applicationWillResignActive(_ application: UIApplication) {
 		// Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
 		// Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

@@ -1,26 +1,131 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HSA-TP-E5c">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Initial Table View Table View Controller-->
+        <scene sceneID="JOi-Ty-D2c">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController id="HSA-TP-E5c" customClass="initialTableViewTableViewController" customModule="MotoYard" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="i50-fu-qmD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="ycZ-Bj-2eU">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="175" id="sBK-hc-UB2">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sBK-hc-UB2" id="MW2-s1-z3r">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="RMr-X3-bal">
+                                                    <rect key="frame" x="137" y="37" width="100" height="100"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="RMr-X3-bal" firstAttribute="centerY" secondItem="MW2-s1-z3r" secondAttribute="centerY" id="qt5-pV-MQO"/>
+                                                <constraint firstItem="RMr-X3-bal" firstAttribute="centerX" secondItem="MW2-s1-z3r" secondAttribute="centerX" id="rHC-1x-0I2"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="ZiU-LC-cJK">
+                                        <rect key="frame" x="0.0" y="175" width="375" height="131"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZiU-LC-cJK" id="H9n-BN-V6A">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="11140340_2008406716051399_2048173701518919880_n" translatesAutoresizingMaskIntoConstraints="NO" id="vcK-G8-HEF">
+                                                    <rect key="frame" x="67" y="5" width="240" height="120"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vcK-G8-HEF" firstAttribute="centerY" secondItem="H9n-BN-V6A" secondAttribute="centerY" id="SSk-AP-qxt"/>
+                                                <constraint firstItem="vcK-G8-HEF" firstAttribute="centerX" secondItem="H9n-BN-V6A" secondAttribute="centerX" id="bbE-Uw-z1W"/>
+                                                <constraint firstItem="vcK-G8-HEF" firstAttribute="centerY" secondItem="H9n-BN-V6A" secondAttribute="centerY" id="in2-EB-6EK"/>
+                                                <constraint firstItem="vcK-G8-HEF" firstAttribute="centerX" secondItem="H9n-BN-V6A" secondAttribute="centerX" id="zfZ-Iz-dga"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="141" id="bzV-tR-VZg">
+                                        <rect key="frame" x="0.0" y="306" width="375" height="141"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bzV-tR-VZg" id="ZQl-Wh-tgA">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="motocikly-460x230.jpg.pagespeed.ce.HPT_y5XSDU" translatesAutoresizingMaskIntoConstraints="NO" id="8mf-Q4-wCt">
+                                                    <rect key="frame" x="67" y="4" width="240" height="128"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8mf-Q4-wCt" firstAttribute="centerY" secondItem="ZQl-Wh-tgA" secondAttribute="centerY" id="kLn-94-1lW"/>
+                                                <constraint firstItem="8mf-Q4-wCt" firstAttribute="centerX" secondItem="ZQl-Wh-tgA" secondAttribute="centerX" id="vFy-zI-zuM"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="141" id="teW-80-wyP">
+                                        <rect key="frame" x="0.0" y="447" width="375" height="141"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="teW-80-wyP" id="T5U-bR-WOs">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="maksi-skuters-460x230.jpg.pagespeed.ce.rdNDY6be8Y" translatesAutoresizingMaskIntoConstraints="NO" id="z1q-0G-eB0">
+                                                    <rect key="frame" x="67" y="6" width="240" height="128"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="z1q-0G-eB0" firstAttribute="centerY" secondItem="T5U-bR-WOs" secondAttribute="centerY" id="cSS-Yt-xcu"/>
+                                                <constraint firstItem="z1q-0G-eB0" firstAttribute="centerX" secondItem="T5U-bR-WOs" secondAttribute="centerX" id="nS1-LI-0m8"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="141" id="FNt-PR-coT">
+                                        <rect key="frame" x="0.0" y="588" width="375" height="141"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FNt-PR-coT" id="GK7-jH-L6Z">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img005-460x230.jpg.pagespeed.ce.Bgm64IL-xL" translatesAutoresizingMaskIntoConstraints="NO" id="KLw-dw-cVV">
+                                                    <rect key="frame" x="68" y="4" width="240" height="128"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="KLw-dw-cVV" firstAttribute="centerX" secondItem="GK7-jH-L6Z" secondAttribute="centerX" id="Wkf-b7-oMM"/>
+                                                <constraint firstItem="KLw-dw-cVV" firstAttribute="centerY" secondItem="GK7-jH-L6Z" secondAttribute="centerY" id="YUg-SB-d2D"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="HSA-TP-E5c" id="aYU-b9-a0X"/>
+                            <outlet property="delegate" destination="HSA-TP-E5c" id="rfJ-r6-btI"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W2D-Dh-pS8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="18.399999999999999" y="-16.641679160419791"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="11140340_2008406716051399_2048173701518919880_n" width="480" height="480"/>
+        <image name="img005-460x230.jpg.pagespeed.ce.Bgm64IL-xL" width="460" height="230"/>
+        <image name="maksi-skuters-460x230.jpg.pagespeed.ce.rdNDY6be8Y" width="460" height="230"/>
+        <image name="motocikly-460x230.jpg.pagespeed.ce.HPT_y5XSDU" width="460" height="230"/>
+        <image name="photo" width="100" height="100"/>
+    </resources>
 </document>
