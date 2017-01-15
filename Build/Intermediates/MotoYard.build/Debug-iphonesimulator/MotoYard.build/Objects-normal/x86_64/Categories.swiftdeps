@@ -8,13 +8,13 @@ provides-member:
 provides-dynamic-lookup:
 - "getAllItems"
 depends-top-level:
-- !private "print"
-- !private "StringLiteralType"
-- !private "Error"
-- "PFObject"
-- "Categories"
 - !private "PFQuery"
+- !private "print"
 - !private "=="
+- "PFObject"
+- !private "Error"
+- !private "StringLiteralType"
+- "Categories"
 depends-member:
 - !private ["Ps9AnyObject", "PFQuery"]
 - !private ["Ps9AnyObject", "findObjectsInBackground"]
