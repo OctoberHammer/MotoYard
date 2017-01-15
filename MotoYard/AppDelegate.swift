@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 			$0.server = "https://parseapi.back4app.com"
 		}
 		Parse.initialize(with: configuration)
-		
+		 
 		PFUser.enableAutomaticUser()
 		
 		let defaultACL = PFACL()
